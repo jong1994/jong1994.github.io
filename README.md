@@ -9,8 +9,8 @@
 2. 혼자 사는 독거노인들의 겪는 외로움의 부분적 해소에 도움
    - Chat Bot 
    - 감정 파악을 통하여 감정에 맞는 대화 서비스 제공
+   
 ---
-
 
 ## 해당 프로젝트를 진행하기 위하여 필요한 준비물
 
@@ -23,6 +23,8 @@
 ## 전체적인 시스템 구조
 
 ![](images/main/system_design.png)
+
+- DialogFlow를 통한 Application와 AWS를 이용한 Backend Service를 만들어 서비스를 제공합니다
 
 ---
 
