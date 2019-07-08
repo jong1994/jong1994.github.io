@@ -1,4 +1,5 @@
-# Google Home(Dialogflow)와 AWS 연동하여 독거노인의 주거 환경 개선 
+# Google Home(Dialogflow)와 AWS를
+# 연동하여 독거노인의 주거 환경 개선 
 
 #### Cross-Platform을 통하여 현실적으로 독거노인들에게 도움을 주는 방법 
 
