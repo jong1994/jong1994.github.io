@@ -20,6 +20,12 @@
 
 ---
 
+## 전체적인 시스템 구조
+
+![](images/main/시스템설계도.png)
+
+---
+
 ### 준비가 끝났으니 단계에 따라 천천히 따라와 주세요! 👋
 
 - [RDS 생성하기](https://github.com/jaehui327/AUSG-iOS-MapOfRestaurant/blob/master/guide/RDS_guide.md)
