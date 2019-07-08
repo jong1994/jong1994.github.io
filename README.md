@@ -25,7 +25,7 @@
 ![](images/main/system_design.png)
 
 - DialogFlow를 통한 Application와 AWS를 이용한 Backend Service를 만들어 서비스를 제공합니다
-
+- DialogFlow 사용법은 웹상에 상세히 잘 나와있으니, integration part 설명에 더 치중하겠습 
 ---
 
 ### 준비가 끝났으니 단계에 따라 천천히 따라와 주세요! 👋
