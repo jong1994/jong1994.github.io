@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+# Google Home(Dialogflow)와 AWS 연동하여 독거노인의 주거 환경 개선 
 
-You can use the [editor on GitHub](https://github.com/jong1994/jong1994.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+#### Cross-Platform을 통하여 현실적으로 노인들에게 도움을 주는 방법 
+- 최신 IT기술에 익숙하지 못한 독거노인들에게 음성으로 기술들을 쉽게 접근하게 도와준다.
+  최신 IT기술에 익숙하지 못한 독거노인들에게 음성을 통한 Smart Devices 통제
+  음성(Google Home)으로 위험 알림 서비스 제공
+- 혼자 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+---
 
-### Markdown
+### 구현이 완료되면 아래와 같은 어플리케이션을 볼 수 있습니다.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![](images/iOS_guide/2.png)
 
-```markdown
-Syntax highlighted code block
+---
 
-# Header 1
-## Header 2
-### Header 3
+### 해당 세션을 진행하기 위해서는 아래와 같은 것들이 필요합니다.
 
-- Bulleted
-- List
+#### 1. AWS 계정
 
-1. Numbered
-2. List
+AWS 서비스를 사용하여 서버를 구축하기 때문에 AWS 계정이 필요합니다.
 
-**Bold** and _Italic_ and `Code` text
+- AWS 계정 만들기 [이동](https://aws.amazon.com/ko/)
 
-[Link](url) and ![Image](src)
-```
+본 세션에서는 아래와 같은 서비스를 이용합니다.
+~~~
+- AWS RDS
+- AWS Elastic Beanstalk
+~~~
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+본 세션의 일환으로 시작하는 모든 리소스는 AWS 계정이 12개월 미만인 경우, 제공하는 AWS 프리티어로 충분히 가능합니다. 프리티어를 넘어서는 경우, 과금 될 수도 있습니다. 따라서, 새로운 실습용 계정을 만드시길 권장합니다. 자세한 내용은 [AWS 프리 티어 페이지](https://aws.amazon.com/free/)를 참조하세요.
 
-### Jekyll Themes
+---
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jong1994/jong1994.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### 2. Xcode
 
-### Support or Contact
+본 세션은 iOS 어플리케이션을 통해 클라이언트를 구현하기 때문에 Xcode 및 CocoaPods 등이 필요합니다.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Xcode 설치 가이드 [이동](https://github.com/AUSG/ausg-seminar-2019/tree/master/iOSTrack/Preparation)
+
+---
+
+### 준비가 끝났으니 단계에 따라 천천히 따라와 주세요! 👋
+
+- [RDS 생성하기](https://github.com/jaehui327/AUSG-iOS-MapOfRestaurant/blob/master/guide/RDS_guide.md)
+
+- [Node.js 코드 만들기](https://github.com/jaehui327/AUSG-iOS-MapOfRestaurant/blob/master/guide/Nodejs_guide.md)
+
+- [Elastic Beanstalk으로 배포하기](https://github.com/jaehui327/AUSG-iOS-MapOfRestaurant/blob/master/guide/Beanstalk_guide.md)
+
+- [iOS 앱과 API 서버 연동하기](https://github.com/jaehui327/AUSG-iOS-MapOfRestaurant/blob/master/guide/iOS_guide.md)
+
+- [삭제 가이드](https://github.com/jaehui327/AUSG-iOS-MapOfRestaurant/blob/master/guide/delete_guide.md)
