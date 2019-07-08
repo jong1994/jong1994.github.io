@@ -22,7 +22,7 @@
 
 ## 전체적인 시스템 구조
 
-![](images/main/시스템설계도.png)
+![](images/main/system_design.png)
 
 ---
 
